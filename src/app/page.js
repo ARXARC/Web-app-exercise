@@ -22,9 +22,7 @@ export default function Home() {
         </div>
       </header>
       <section id="info" className={styles.infoSection}>
-        <img className={styles.image}
-          src="razas-perros-bulldog-frances-lunares-blancos-negros-sobre-marmol.jpg"></img>
-          <div className={styles.infoContainer}>
+        <div className={styles.infoContainer}>
           <span className={styles.title + " " + styles.yellowText}>Josh</span>
           <br />
           <span className={styles.title}>Carlson</span>
@@ -45,6 +43,13 @@ export default function Home() {
               </li>
             </ul>
           </div>
+        </div>
+      </section>
+      <section id="gallery" className={styles.gallerySection}>
+        <div className={styles.imageContainer}>
+          <img className={styles.image} src="image1.jpg"></img>
+          <img className={styles.image} src="image2.jpg"></img>
+          <img className={styles.image} src="image3.jpg"></img>
         </div>
       </section>
     </main>
